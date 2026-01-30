@@ -1,0 +1,24 @@
+/etc/passwd: FAILED
+/etc/shadow-: FAILED open or read
+/etc/gns3/gns3_controller.conf: FAILED open or read
+/etc/gns3/gns3_server.conf: FAILED open or read
+/etc/passwd-: FAILED
+/etc/subgid: FAILED
+/etc/NetworkManager/system-connections/Loongjeab_5G.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/Bar-rista_5G.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/wifi-student.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/ITFORGE_UFOx.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/UwU.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/Kawaii_5G.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/Kawaii_2G.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/TP-Link_3A0B.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/Sanya.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/Kawaii.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/Phornpra.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/bbbubi.nmconnection: FAILED open or read
+/etc/NetworkManager/system-connections/K-FIGHT.nmconnection: FAILED open or read
+/etc/shadow: FAILED open or read
+/etc/ssh/ssh_host_rsa_key: FAILED open or read
+/etc/ssh/ssh_host_ed25519_key: FAILED open or read
+/etc/subuid: FAILED
+/etc/sudoers: FAILED open or read
