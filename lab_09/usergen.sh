@@ -59,14 +59,16 @@ if [ $N_USER -lt 0 ]; then
 	exit 1
 fi
 
-echo $USERNAME
-echo $PASSWORD
-echo $HOMEPATH
-echo $SELECT_SHELL
-echo $N_USER
-
 for (( i=1 ; i<=$N_USER ; i++ )); do
 	INDEX=$(printf "%02d" $i)
-	sudo useradd "$USERNAME$INDEX" --create-home 
+	# Create User
+	echo "${USERNAME}${INDEX}-s"
+	# Change password
+	echo "${USERNAME}:${PASSWORD}-x"
+	# Create home for user
+	echo "${HOMEPATH}/${USERNAME}${INDEX}-s"
+	sudo chown ${USERNAME} "${HOMEPATH}/${USERNAME}${INDEX}-s"
+	# Set default shell
+	sudo usermod -s $(which ${SELECT_SHELL}) ${USERNAME}
 done
 
